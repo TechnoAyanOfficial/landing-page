@@ -36,6 +36,6 @@ function collide_check() {
   }
 }
 
-collide_check()
+document.addEventListener("DOMContentLoaded", collide_check);
 
 window.addEventListener('resize',collide_check);
