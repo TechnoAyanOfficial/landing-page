@@ -152,7 +152,7 @@ a {
   
 }
 
-.socials__item:hover {
+.socials__item a:hover {
   opacity: 0.5;
 }
 
