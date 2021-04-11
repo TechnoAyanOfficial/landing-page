@@ -7,7 +7,7 @@ const Hero = () => {
         <Image src="/images/horseman.svg" alt="horseman on the left" width={560} height={700}/>
       </div>
 			<div className="fog">
-				<Image src="/images/top_bg.png" alt="top background" width={1000} height={1000}/>
+				<Image src="/images/top_bg.png" alt="top background" width={1280} height={1080}/>
 			</div>
 			<div className="container">
 				<h1 className="hero__text">
