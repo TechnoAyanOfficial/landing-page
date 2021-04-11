@@ -464,6 +464,10 @@ a {
 	text-align: center;
 }
 
+.hero__text .inversed {
+	color: white;
+}
+
 .horseman,
 .fog {
 	position: absolute;
@@ -524,6 +528,7 @@ a {
 	max-width: 250px;
 	display: flex;
 	margin: 0 auto;
+	justify-content: center;
 }
 
 .socials__item {
@@ -543,10 +548,6 @@ a {
 		font-size: 3.5rem;
 		margin-top: -3.5em;
 		letter-spacing: 3px;
-	}
-
-	.hero__text .inversed {
-		color: white;
 	}
 
 	.horseman {
