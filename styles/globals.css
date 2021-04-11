@@ -365,7 +365,6 @@ template {
 html {
 	font-family: "Game-Of-Thrones";
 	font-weight: normal;
-	line-height: 2.5;
 }
 
 body {
@@ -503,6 +502,7 @@ a {
 
 .text-block {
 	text-align: center;
+	line-height: 2.5;
 }
 
 .row + .row {
