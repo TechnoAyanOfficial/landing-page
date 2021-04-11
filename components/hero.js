@@ -11,7 +11,7 @@ const Hero = () => {
 			</div>
 			<div className="container">
 				<h1 className="hero__text">
-					it's time to <span className="inversed">go to war</span>
+					<span>it's</span> <span>time</span> <span>to</span> <span className="inversed">go</span> <span className="inversed">to</span> <span className="inversed">war</span>
 				</h1>
 			</div>
 		</div>

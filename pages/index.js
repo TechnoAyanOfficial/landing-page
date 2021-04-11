@@ -9,18 +9,22 @@ export default function Home() {
 	useEffect(() => {
 		
 		function collideCheck() {
-			var fog = document.querySelector('.fog');
-			var heroText = document.querySelector(".hero__text")
-			var navigation = document.querySelector(".navigation__links")
+			const fog = document.querySelector('.fog');
+			const heroText = document.querySelector(".hero__text")
+			const navigation = document.querySelector(".navigation__links")
+			const spanOffsetX = window.screen.width >= 980 ? 400 : 200;
 		
-			var isTextInTheFog = isColliding(fog, heroText, 400)
-			var isNavInTheFog = isColliding(fog, navigation, 200)
-		
-			if (isTextInTheFog) {
-				heroText.querySelector("span").classList.add("inversed")
-			} else {
-				heroText.querySelector("span").classList.remove("inversed")
-			}
+			const isNavInTheFog = isColliding(fog, navigation, 200)
+
+			heroText.querySelectorAll("span").forEach(span => {
+				const isSpanInTheFog = isColliding(fog.querySelector('img'), span, spanOffsetX)
+
+				if (isSpanInTheFog) {
+					span.classList.add('inversed')
+				} else {
+					span.classList.remove('inversed')
+				}
+			})
 		
 			if (isNavInTheFog) {
 				navigation.classList.add("inversed")
