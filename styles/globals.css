@@ -501,7 +501,7 @@ a {
 	text-align: center;
 }
 
-.text-block + .text-block {
+.row + .row {
 	margin-top: 2em;
 }
 
@@ -563,7 +563,7 @@ a {
 		max-width: 48%;
 	}
 
-	.text-block + .text-block {
+	.row + .row {
 		margin-top: 0;
 	}
 }
