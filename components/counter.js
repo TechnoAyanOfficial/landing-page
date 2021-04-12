@@ -33,9 +33,9 @@ const Counter = ({ eventDate }) => {
 	};
 
 	return (
-		<div class="container counter">
+		<div className="container counter">
 			<div className="counter__title">Time until presale</div>
-			<div class="counter__clock-wrapper">
+			<div className="counter__clock-wrapper">
 				<div className="counter__clock">
 					<span>{leadingZero(state.days)}</span>{" "}
 					{state.days == 1 ? "day" : "days"}
