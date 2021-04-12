@@ -366,6 +366,7 @@ html {
 	font-family: "Game-Of-Thrones";
 	font-weight: normal;
 	letter-spacing: 4px;
+	overflow-x: hidden;
 }
 
 body {
