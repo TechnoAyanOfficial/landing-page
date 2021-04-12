@@ -366,6 +366,7 @@ html {
 	font-family: "Game-Of-Thrones";
 	font-weight: normal;
 	letter-spacing: 4px;
+	overflow-x: hidden;
 }
 
 body {
@@ -524,6 +525,7 @@ a {
 .counter__title {
 	font-size: 1.8rem;
 	margin-bottom: 0.5em;
+	line-height: 1.5;
 }
 
 .counter__clock {
@@ -602,6 +604,17 @@ a {
 	.counter__clock-wrapper {
 		display: flex;
 		justify-content: center;
+	}
+}
+
+@media (max-width: 501px) {
+	.navigation__links {
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	
+	.navigation__links li + li {
+		margin-left: 0;
 	}
 }
 

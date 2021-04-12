@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image"
 
 const Navbar = () => {
@@ -9,10 +8,16 @@ const Navbar = () => {
 			</div>
 			<ul className="navigation__links inversed">
 				<li>
-					<Link href="/">Link</Link>
+					<a href="#" target="_blank">Blog</a>
 				</li>
 				<li>
-					<Link href="/">Link</Link>
+					<a href="https://gameofdefi.gitbook.io/docs/" target="_blank">Docs</a>
+				</li>
+				<li>
+					<a href="http://presale.gameofdefi.finance/" target="_blank">Presale</a>
+				</li>
+				<li>
+					<a href="http://app.gameofdefi.finance/" target="_blank">Dapp</a>
 				</li>
 			</ul>
 		</nav>

@@ -10,27 +10,27 @@ export default function Home() {
 	useEffect(() => {
 		function collideCheck() {
 			const fog = document.querySelector(".fog");
-			// const heroText = document.querySelector(".hero__text");
+			const heroText = document.querySelector(".hero__text");
 			const navigation = document.querySelector(".navigation__links");
-			// const spanOffsetX = window.screen.width >= 980 ? 400 : 200;
-			// const spanOffsetY = window.screen.width >= 980 ? 0 : 100;
+			const spanOffsetX = window.screen.width >= 980 ? 400 : 200;
+			const spanOffsetY = window.screen.width >= 980 ? 0 : 100;
 
 			const isNavInTheFog = isColliding(fog, navigation, 200);
 
-			// heroText.querySelectorAll("span").forEach((span) => {
-			// 	const isSpanInTheFog = isColliding(
-			// 		fog.querySelector("img"),
-			// 		span,
-			// 		spanOffsetX,
-			// 		spanOffsetY
-			// 	);
+			heroText.querySelectorAll("span").forEach((span) => {
+				const isSpanInTheFog = isColliding(
+					fog.querySelector("img"),
+					span,
+					spanOffsetX,
+					spanOffsetY
+				);
 
-			// 	if (isSpanInTheFog) {
-			// 		span.classList.add("inversed");
-			// 	} else {
-			// 		span.classList.remove("inversed");
-			// 	}
-			// });
+				if (isSpanInTheFog) {
+					span.classList.add("inversed");
+				} else {
+					span.classList.remove("inversed");
+				}
+			});
 
 			if (isNavInTheFog) {
 				navigation.classList.add("inversed");
