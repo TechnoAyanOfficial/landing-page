@@ -50,13 +50,15 @@ export default function Home() {
 			<Counter eventDate="April 17, 2021 03:24:00" />
 			<div className="container">
 				<TextBlock>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
-					suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
-					lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur
-					adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-					magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-					viverra maecenas accumsan lacus vel facilisis.
+					Game of DeFi protocol is gamified DeFi protocol inspired by Game Of
+					Thrones HBO series. It will be deployed on Binance Smart Chain.
+					Basically GoD combines traditional world of DeFi yield farming with
+					gaming one. Our end goal product will offer our customers to use our
+					yield farming opportunities, boost their APR If they decide to be
+					engaged with our NFT games, many deflationary mechanisms and much
+					more. Our games will be based on play to earn game model and will
+					combine NFT ownership with gaming. Our goals and vision are to bring
+					constant utility to the token and the platform.
 				</TextBlock>
 			</div>
 			<Footer />
