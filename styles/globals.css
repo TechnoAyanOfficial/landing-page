@@ -473,6 +473,7 @@ a {
 	backface-visibility: hidden;
 	color: transparent;
 	margin-top: 20px;
+	font-weight: 100;
 }
 
 .hero__text .inversed {
@@ -480,7 +481,7 @@ a {
 }
 
 .hero__text .space {
-	margin-left: 25px;
+	margin-left: 10px;
 }
 
 .hero__text span:nth-child(even) {
@@ -606,6 +607,10 @@ a {
 	.counter__clock-wrapper {
 		display: flex;
 		justify-content: center;
+	}
+
+	.hero__text .space {
+		margin-left: 25px;
 	}
 }
 
