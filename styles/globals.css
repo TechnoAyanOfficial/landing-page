@@ -366,12 +366,12 @@ html {
 	font-family: "Game-Of-Thrones";
 	font-weight: normal;
 	letter-spacing: 4px;
-	overflow-x: hidden;
 }
 
 body {
 	background: url("../public/images/whitebg_only.svg") no-repeat;
 	background-size: cover;
+	overflow-x: hidden;
 }
 
 img {
