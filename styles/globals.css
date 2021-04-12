@@ -423,6 +423,7 @@ a {
 	display: inline-flex;
 	overflow: hidden;
 	color: black;
+	line-height: 1.2;
 }
 
 .navigation__links a::before {
