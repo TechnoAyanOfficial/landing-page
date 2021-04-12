@@ -23,17 +23,27 @@ const Hero = () => {
 			</div>
 			<div className="container">
 				<h1 className="hero__text">
-					{[...chars].map((l, i) => (
-						<span
+					{[...chars].map((l, i) => {
+						let style = {
+							animationDelay: `${10 + i / 10}s`
+						}
+
+						if (l == '`') {
+							style['position'] = 'relative';
+							style['top'] = '-20px';
+						}
+
+
+						return <span
 							key={i}
 							className={`
-							${l == " " ? "space" : ''} ${i > 12 ? "inversed" : ''}
+							${l == " " ? "space" : ""} ${i > 12 ? "inversed" : ""}
 						`}
-							style={{animationDelay: `${10 + (i/10)}s`}}
+							style={style}
 						>
 							{l}
-						</span>
-					))}
+						</span>;
+					})}
 				</h1>
 			</div>
 		</div>
