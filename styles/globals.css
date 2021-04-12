@@ -365,6 +365,7 @@ template {
 html {
 	font-family: "Game-Of-Thrones";
 	font-weight: normal;
+	letter-spacing: 4px;
 }
 
 body {
@@ -459,7 +460,6 @@ a {
 
 .hero__text {
 	font-size: 2rem;
-	letter-spacing: 2px;
 	text-align: center;
 }
 
@@ -498,15 +498,31 @@ a {
 	display: none;
 }
 
+/* COUNTER */
+.counter {
+	margin-bottom: 5em;
+	text-align: center;
+}
+
+.counter__title {
+	font-size: 1.8rem;
+	margin-bottom: 0.5em;
+}
+
+.counter__clock {
+	font-size: 1.5rem;
+	margin: 0 0.5em;
+}
+
+.counter__clock span {
+	font-size: 2.1rem;
+}
+
 /* CONTENT */
 
 .text-block {
 	text-align: center;
 	line-height: 2.5;
-}
-
-.row + .row {
-	margin-top: 2em;
 }
 
 .separator {
@@ -515,7 +531,7 @@ a {
 	background: url("../public/images/separator.svg") no-repeat;
 	background-size: 50% 100%;
 	background-position: center;
-	margin-top: 2em;
+	margin-bottom: 5em;
 }
 
 /* FOOTER */
@@ -554,17 +570,20 @@ a {
 		display: block;
 	}
 
-	.rows {
+	.counter__title {
+		font-size: 3rem;
+	}
+
+	.counter__clock {
+		font-size: 2rem;
+	}
+
+	.counter__clock span {
+		font-size: 3rem;
+	}
+
+	.counter__clock-wrapper {
 		display: flex;
-		justify-content: space-between;
-	}
-
-	.row {
-		width: 100%;
-		max-width: 48%;
-	}
-
-	.row + .row {
-		margin-top: 0;
+		justify-content: center;
 	}
 }
