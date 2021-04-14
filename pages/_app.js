@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
 				/>
 				<meta
 					property="og:image"
-					content="https://www.gameofdefi.finance/images/logo.svg"
+					content="https://www.gameofdefi.finance/images/logo.png"
 				/>
 			</Head>
 			<Component {...pageProps} />
