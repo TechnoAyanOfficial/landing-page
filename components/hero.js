@@ -1,17 +1,14 @@
 import Image from "next/image";
 
+import Horseman from "./horseman";
+
 const Hero = () => {
 	const chars = "it`s time to go to war";
 
 	return (
 		<div className="hero">
 			<div className="horseman">
-				<Image
-					src="/images/horseman.svg"
-					alt="horseman on the left"
-					width={560}
-					height={700}
-				/>
+				<Horseman />
 			</div>
 			<div className="fog">
 				<Image
