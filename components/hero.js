@@ -1,7 +1,5 @@
 import Image from "next/image";
 
-import Horseman from "./horseman";
-
 const Hero = () => {
 	const chars = "it`s time to go to war";
 
