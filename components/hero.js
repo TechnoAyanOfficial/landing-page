@@ -8,7 +8,12 @@ const Hero = () => {
 	return (
 		<div className="hero">
 			<div className="horseman">
-				<Horseman />
+				<Image
+					src="/images/horseman.svg"
+					alt="horseman on the left"
+					width={560}
+					height={700}
+				/>
 			</div>
 			<div className="fog">
 				<Image
@@ -22,24 +27,25 @@ const Hero = () => {
 				<h1 className="hero__text">
 					{[...chars].map((l, i) => {
 						let style = {
-							animationDelay: `${10 + i / 10}s`
+							animationDelay: `${10 + i / 10}s`,
+						};
+
+						if (l == "`") {
+							style["position"] = "relative";
+							style["top"] = "-20px";
 						}
 
-						if (l == '`') {
-							style['position'] = 'relative';
-							style['top'] = '-20px';
-						}
-
-
-						return <span
-							key={i}
-							className={`
+						return (
+							<span
+								key={i}
+								className={`
 							${l == " " ? "space" : ""} ${i > 12 ? "inversed" : ""}
 						`}
-							style={style}
-						>
-							{l}
-						</span>;
+								style={style}
+							>
+								{l}
+							</span>
+						);
 					})}
 				</h1>
 			</div>

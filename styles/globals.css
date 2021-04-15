@@ -527,18 +527,6 @@ a {
 	display: none;
 }
 
-.horseman svg {
-	width: 1600px;
-	height: 850px;
-}
-
-.horseman image {
-	height: 90%;
-	width: 90%;
-	transform: translate(30%,0%);
-	position: relative;
-}
-
 /* COUNTER */
 .counter {
 	margin-bottom: 5em;
