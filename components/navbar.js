@@ -8,10 +8,10 @@ const Navbar = () => {
 			</div>
 			<ul className="navigation__links inversed">
 				<li>
-					<a href="#" target="_blank">Blog</a>
+					<a href="https://blog.gameofdefi.finance/" target="_blank">Blog</a>
 				</li>
 				<li>
-					<a href="https://gameofdefi.gitbook.io/docs/" target="_blank">Docs</a>
+					<a href="https://docs.gameofdefi.finance" target="_blank">Docs</a>
 				</li>
 				<li>
 					<a href="http://presale.gameofdefi.finance/" target="_blank">Presale</a>
