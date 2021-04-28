@@ -3,6 +3,7 @@ import Counter from "../components/counter";
 import Footer from "../components/footer";
 import Hero from "../components/hero";
 import Navbar from "../components/navbar";
+import Roadmap from "../components/roadmap";
 import TextBlock from "../components/text-block";
 import isColliding from "../utils/isColliding";
 
@@ -61,6 +62,7 @@ export default function Home() {
 					constant utility to the token and the platform.
 				</TextBlock>
 			</div>
+			<Roadmap />
 			<Footer />
 		</>
 	);
