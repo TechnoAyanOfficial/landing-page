@@ -5,7 +5,7 @@ const Video = () => {
 				width="100%"
 				src="https://www.youtube.com/embed/UCxXID2FGoU"
 				title="GOD awesome video"
-				allowfullscreen
+				allowFullScreen
         frameBorder="0"
 			></iframe>
 			

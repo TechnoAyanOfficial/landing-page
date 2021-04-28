@@ -370,9 +370,9 @@ html {
 }
 
 body {
-	background: url("../public/images/whitebg_only.svg") no-repeat;
-	background-size: cover;
+	background: url("../public/images/whitebg_only.png");
 	overflow-x: hidden;
+	background-size: contain;
 }
 
 * {
