@@ -15,7 +15,7 @@ const Footer = () => {
 					</a>
 				</div>
 				<div className="socials__item">
-					<a href="https://discord.gg/uyzZ3Pc9" target="_blank">
+					<a href="https://discord.gg/QguaUrNrhD" target="_blank">
 						<Image
 							src="/images/discord.svg"
 							alt="discord"
@@ -35,7 +35,7 @@ const Footer = () => {
 					</a>
 				</div>
 				<div className="socials__item">
-					<a href="#">
+					<a href="https://blog.gameofdefi.finance/">
 						<Image
 							src="/images/marketplace_icon.svg"
 							alt="marketplace"
