@@ -5,6 +5,7 @@ import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import Roadmap from "../components/roadmap";
 import TextBlock from "../components/text-block";
+import Video from "../components/video";
 import isColliding from "../utils/isColliding";
 
 export default function Home() {
@@ -48,6 +49,7 @@ export default function Home() {
 		<>
 			<Navbar />
 			<Hero />
+			<Video />
 			<Counter eventDate="May 20, 2021 17:00:00" />
 			<div className="container">
 				<TextBlock>

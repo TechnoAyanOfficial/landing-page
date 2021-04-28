@@ -625,6 +625,16 @@ a {
 	height: 30px;
 }
 
+.video {
+	text-align: center;
+	margin-top: 5em;
+	margin-bottom: 5em;
+}
+
+.video iframe {
+	min-height: 250px;
+}
+
 
 /* FOOTER */
 
@@ -700,6 +710,10 @@ a {
 		color: #941100;
 		line-height: 1.6;
 		font-size: 0.9rem;
+	}
+
+	.video iframe {
+		min-height: 650px;
 	}
 }
 
