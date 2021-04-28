@@ -8,6 +8,7 @@ const Video = () => {
 				allowfullscreen
         frameBorder="0"
 			></iframe>
+			
 		</div>
 	);
 };
