@@ -50,7 +50,7 @@ export default function Home() {
 			<Navbar />
 			<Hero />
 			<Video />
-			<Counter eventDate="May 20, 2021 17:00:00" />
+			{/* <Counter eventDate="May 20, 2021 17:00:00" /> */}
 			<div className="container">
 				<TextBlock>
 					Game of DeFi protocol is gamified DeFi protocol inspired by Game Of
